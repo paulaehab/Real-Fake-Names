@@ -11,7 +11,7 @@ docker-compose up
 ```
 The project will run and you will find the the link of API to test the project  
   ![Screenshot](pics/docker.PNG)  
-Go to the link in the screen shot ```http://127.0.0.1:8000/docs``` to open the swager of FastAPI and text the model like the below picture  
+Go to the link in the screen shot ```http://127.0.0.1:8000/docs``` to open the swager of FastAPI and text the model like the below picture   
   ![Screenshot](pics/test case.PNG)  
 
 
@@ -69,8 +69,8 @@ I made a normalization on the dataset where I replaced the following characters:
 
 
  ## Conclusion 
-  The model do will to undersatnd the dataset and made a good results where:
-  Training accuracy: 0.9723%
-  Testing accuracy: 0.9272%  
+  The model do will to undersatnd the dataset and made a good results where:  
+  Training accuracy: 0.9723%  
+  Testing accuracy: 0.9272%    
    
   
