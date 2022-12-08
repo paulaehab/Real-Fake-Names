@@ -73,9 +73,9 @@ I made a normalization on the dataset where I replaced the following characters:
   Training accuracy: 0.9723%  
   Testing accuracy: 0.9272%    
    
-  Data -> for data files 
-│
-└───Helpers -> conatine all helpers function nedded for this project  
+  Data -> for data files   
+│  
+└───Helpers -> conatine all helpers function nedded for this project    
 │   │
 │   └───original_data
 │       │
