@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 uvicorn serve:app  
 ```
-####The project will run and you will find the the link of API to test the project  
+The project will run and you will find the the link of API to test the project  
 ![Screenshot](pics/server.PNG)
 
 ### Run the streamlit app on localhost after install the virtual environment 
@@ -64,7 +64,7 @@ I made a normalization on the dataset where I replaced the following characters:
  ## Approach model  
  ### LSTM approach:  
  I used a basic word embedding layer -> LSTM model -> then some denses  
- The final layer is sigmoid layer where I treated the probelm as a regression probelm where the ouput is confidense between 0 and 1  
+ The final layer is sigmoid layer where I treated the probelm as a regression probelm where the ouput is confidense between 0 and 1    
  ![Screenshot](pics/model.PNG)
 
 
@@ -73,4 +73,29 @@ I made a normalization on the dataset where I replaced the following characters:
   Training accuracy: 0.9723%  
   Testing accuracy: 0.9272%    
    
-  
+  Data -> for data files 
+│
+└───Helpers -> conatine all helpers function nedded for this project  
+│   │
+│   └───original_data
+│       │
+│       └───bus
+│       └───sedan
+│       └───crossover
+│       └───hatchback
+│       └───pickup-truck
+│       └───truck
+│       └───van
+│       └───motorcycle
+│   
+│   
+└───test
+│   │
+│   └───bus
+│   └───sedan
+│   └───crossover
+│   └───hatchback
+│   └───pickup-truck
+│   └───truck
+│   └───van
+│   └───motorcycle
