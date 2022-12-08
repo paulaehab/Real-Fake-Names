@@ -9,8 +9,12 @@ you have to install python > 3.8.0, you can download python for windows from her
 docker-compose build
 docker-compose up
 ```
-####The project will run and you will find the the link of API to test the project  
-## picture 
+The project will run and you will find the the link of API to test the project  
+  ![Screenshot](pics/docker.PNG)  
+Go to the link in the screen shot ```http://127.0.0.1:8000/docs``` to open the swager of FastAPI and text the model like the below picture  
+  ![Screenshot](pics/test case.PNG)  
+
+
 
 ### To run the project using virtual environemnt 
 ```
@@ -24,9 +28,7 @@ pip install -r requirements.txt
 uvicorn serve:app  
 ```
 ####The project will run and you will find the the link of API to test the project  
-
-## picture 
-
+![Screenshot](pics/server.PNG)
 
 ### Run the streamlit app on localhost after install the virtual environment 
 ```
@@ -63,8 +65,8 @@ I made a normalization on the dataset where I replaced the following characters:
  ### LSTM approach:  
  I used a basic word embedding layer -> LSTM model -> then some denses  
  The final layer is sigmoid layer where I treated the probelm as a regression probelm where the ouput is confidense between 0 and 1  
- 
-## picture
+ ![Screenshot](pics/model.PNG)
+
 
  ## Conclusion 
   The model do will to undersatnd the dataset and made a good results where:
