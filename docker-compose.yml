@@ -1,0 +1,7 @@
+version: '3'
+services:
+  real-fake-name:
+    container_name: 'real-fake-name-container'
+    build: .
+    ports:
+      - "8000:8000"

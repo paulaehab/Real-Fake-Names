@@ -1,0 +1,6 @@
+__pycache__
+env
+Notebooks
+Streamlite
+.env
+docker-env
