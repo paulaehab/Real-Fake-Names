@@ -76,26 +76,29 @@ I made a normalization on the dataset where I replaced the following characters:
   Data -> for data files   
 │  
 └───Helpers -> conatine all helpers function nedded for this project    
+│   │  
+│   └───data_generation.py -> to genrate the data  
+│   │    
+│   └───loadModel.py -> to load the model and the tokenizer 
+│   │    
+│   └───normalizeText.py -> contain function to normalize the text
+│   │   
+│   └───test.py -> contain code to test model in CMD
+│   │  
+│   └───textPreprocessing.py -> contain text preprocessing as padding function 
 │   │
-│   └───original_data
-│       │
-│       └───bus
-│       └───sedan
-│       └───crossover
-│       └───hatchback
-│       └───pickup-truck
-│       └───truck
-│       └───van
-│       └───motorcycle
+│   └───train.py -> contain code to train the model   
+│       
+└───machine_models -> conatin machine learning models and tokenizer model         
+│       
+└───models -> contain models function used by API                
+│       
+└───Notebooks -> contain my notebooks tries               
 │   
+└───routes -> contain API endpoints  
 │   
-└───test
-│   │
-│   └───bus
-│   └───sedan
-│   └───crossover
-│   └───hatchback
-│   └───pickup-truck
-│   └───truck
-│   └───van
-│   └───motorcycle
+└───Streamlite -> contain the strteamlit application 
+│   
+└───server.py -> it is the API file 
+   
+
