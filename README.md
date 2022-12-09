@@ -71,8 +71,11 @@ I made a normalization on the dataset where I replaced the following characters:
  ## Conclusion 
   The model do will to undersatnd the dataset and made a good results where:  
   Training accuracy: 0.9723%  
-  Testing accuracy: 0.9272%    
-   
+  Testing accuracy: 0.9272%  
+  
+ ## Files Structure   
+
+  
   Data -> for data files   
 │  
 └───Helpers -> conatine all helpers function nedded for this project    
