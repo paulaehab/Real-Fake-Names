@@ -81,11 +81,11 @@ I made a normalization on the dataset where I replaced the following characters:
 │   │    
 │   └───loadModel.py -> to load the model and the tokenizer   
 │   │  
-│   └───normalizeText.py -> contain function to normalize the text
+│   └───normalizeText.py -> contain function to normalize the text  
 │   │  
-│   └───test.py -> contain code to test model in CMD
+│   └───test.py -> contain code to test model in CMD  
 │   │  
-│   └───textPreprocessing.py -> contain text preprocessing as padding function 
+│   └───textPreprocessing.py -> contain text preprocessing as padding function  
 │   │  
 │   └───train.py -> contain code to train the model   
 │       
