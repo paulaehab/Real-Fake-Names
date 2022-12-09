@@ -12,7 +12,7 @@ docker-compose up
 The project will run and you will find the the link of API to test the project  
   ![Screenshot](pics/docker.PNG)  
 Go to the link in the screen shot ```http://127.0.0.1:8000/docs``` to open the swager of FastAPI and text the model like the below picture   
-  ![Screenshot](pics/test case.PNG)  
+  ![Screenshot](pics/testcase.PNG)  
 
 
 
