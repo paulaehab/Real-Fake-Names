@@ -1,5 +1,5 @@
 # Real-Fake-Names
- This a project of creating a machine learning model that takes a text of three words (name) and verify if it is correct name with a confidence threshold of your predictio
+ This a project of creating a machine learning model that takes a text of three words (name) and verify if it is correct name with a confidence threshold of your prediction
 
 
 you have to install python > 3.8.0, you can download python for windows from here: https://www.python.org/downloads/windows/
