@@ -50,7 +50,7 @@ I used a random generation to genrate the dataset I used two ways:
 1- I created a random real names where the second and last name must be a ``` Male``` names.  
 2- I created a random fake names where I made some wrong letters and made the last name and second name be a ``` Female``` names.   
 3- The generated dataset consists of unique names no redundant names and consists of ``` 197627 row ```.    
-4- You will find the dataset in ``` Data folder->final_names.csv ``.   
+4- You will find the dataset in  ```Data folder->final_names.csv```.   
 
 
 #### 2-Data Preprocessing  
